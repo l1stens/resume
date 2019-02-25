@@ -21,7 +21,7 @@
 <body>
   <div id="siteWelcome" class="siteWelcome active">
     <div class="loading"></div></div>
-  <div class="topNavBar">
+  <div id="topNavBar" class="topNavBar">
     <div class="topNavBar-inner clearfix">
       <a class="logo" href="#" alt="logo">
         <span class="rs">RS</span><span class="card">card</span>
@@ -36,6 +36,11 @@
           </li>
           <li>
             <a href="">作品</a>
+            <ul class="subMenu">
+              <li>作品1</li>
+              <li>作品2</li>
+              <li>作品3</li>
+            </ul>
           </li>
           <li>
             <a href="">博客</a>
@@ -201,7 +206,15 @@
   <script>
     setTimeout(function () {
         siteWelcome.classList.remove('active')
-    }, 2000)
+    }, 1000)
+
+    window.onscroll = function (scroll) {
+        if(window.scrollY > 0) {
+            topNavBar.classList.add('sticky')
+        } else {
+            topNavBar.classList.remove('sticky')
+        }
+    }
   </script>
 </body>
 </html>
