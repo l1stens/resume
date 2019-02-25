@@ -367,3 +367,59 @@ section .works > .small{
     position: absolute;
 }
 
+.site-welcome {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-welcome.active {
+    display: flex;
+}
+
+
+.loading {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.loading::before,
+.loading::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: black;
+    border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: s 1.5s linear infinite;
+}
+
+.loading::after{
+    animation-delay: 0.75s;
+}
+
+
+@keyframes s {
+    0%{
+        width: 0;
+        height: 0;
+        opacity: 0.75;
+    }
+    100%{
+        width: 100px;
+        height: 100px;
+        opacity: 0;
+    }
