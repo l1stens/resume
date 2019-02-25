@@ -19,7 +19,7 @@
   </style>
 </head>
 <body>
-  <div id="siteWelcome" class="site-welcome active">
+  <div id="siteWelcome" class="siteWelcome active">
     <div class="loading"></div></div>
   <div class="topNavBar">
     <div class="topNavBar-inner clearfix">
@@ -199,7 +199,9 @@
 
   </section>
   <script>
-    siteWelcome.classList.remove('active')
+    setTimeout(function () {
+        siteWelcome.classList.remove('active')
+    }, 2000)
   </script>
 </body>
 </html>
