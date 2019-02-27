@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
 }
 
-.topNavBar nav > ul > li > a:hover::before {
+.topNavBar nav > ul > li.active > a::before {
     content: '';
     display: block;
     position: absolute;
@@ -113,16 +113,30 @@ h1, h2, h3, h4, h5, h6 {
 .topNavBar .subMenu {
     display: none;
     position: absolute;
-    left: 0;
+    right: -20px;
     top: 100%;
+    background: white;
+    color: #3d4451;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
-.topNavBar .subMenu.active{
+.topNavBar li.active> .subMenu{
     display: block;
+    animation: subMenuSlide 0.25s;
+}
+
+@keyframes subMenuSlide {
+    0%{
+      margin-right: 100%;
+    }
+    100%{
+        margin-right: 0;
+    }
 }
 
 .topNavBar .subMenu > li {
     white-space: nowrap;
+    padding: 5px 10px;
 }
 
 
