@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
     background: white;
     padding: 10px 0;
     z-index: 1;
-    box-shadow: 0 0 15px rgba(0,0,0,0.25);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
     color: #3d4451;
 }
 
@@ -101,11 +101,12 @@ h1, h2, h3, h4, h5, h6 {
     height: 3px;
     animation: slideMenu 0.25s;
 }
+
 @keyframes slideMenu {
-    0%{
+    0% {
         width: 0;
     }
-    100%{
+    100% {
         width: 100%;
     }
 }
@@ -117,19 +118,19 @@ h1, h2, h3, h4, h5, h6 {
     top: 100%;
     background: white;
     color: #3d4451;
-    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
-.topNavBar li.active> .subMenu{
+.topNavBar li.active > .subMenu {
     display: block;
     animation: subMenuSlide 0.25s;
 }
 
 @keyframes subMenuSlide {
-    0%{
-      margin-right: 100%;
+    0% {
+        margin-right: 100%;
     }
-    100%{
+    100% {
         margin-right: 0;
     }
 }
@@ -138,7 +139,6 @@ h1, h2, h3, h4, h5, h6 {
     white-space: nowrap;
     padding: 5px 10px;
 }
-
 
 .topNavBar .logo {
     font-size: 24px;
@@ -252,14 +252,12 @@ h1, h2, h3, h4, h5, h6 {
     background: #CF5D5F;
 }
 
-
 .userCard svg {
     width: 30px;
     height: 30px;
     fill: white;
     vertical-align: top;
 }
-
 
 body main {
     margin-top: -340px;
@@ -340,13 +338,11 @@ section.skills > ol > li:nth-child(even) {
     float: right;
 }
 
-
 section.skills > h3 {
     font-size: 14px;
     line-height: 1.1;
     padding-right: 40px;
 }
-
 
 section.portfolio > h2 {
     text-align: center;
@@ -361,7 +357,6 @@ section.portfolio > nav {
     vertical-align: top;
     margin-top: 32px;
 }
-
 
 section.portfolio > nav > ol > li {
     float: left;
@@ -381,10 +376,10 @@ section.portfolio > nav > ol {
 
 section.portfolio {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
-section.portfolio > nav .bar{
+section.portfolio > nav .bar {
     height: 5px;
     background: #ffffff;
     margin-top: 5px;
@@ -392,7 +387,7 @@ section.portfolio > nav .bar{
     border-radius: 3px;
 }
 
-section.portfolio > nav .bar-inner{
+section.portfolio > nav .bar-inner {
     height: 100%;
     background: #E6686A;
     width: 10%;
@@ -416,12 +411,12 @@ section.portfolio > nav .bar.state-3 .bar-inner {
     width: 35%;
 }
 
-section .works{
+section .works {
     position: relative;
 }
 
 section .works > .big,
-section .works > .small{
+section .works > .small {
     position: absolute;
 }
 
@@ -442,7 +437,6 @@ section .works > .small{
 .siteWelcome.active {
     display: flex;
 }
-
 
 .loading {
     width: 200px;
@@ -468,18 +462,17 @@ section .works > .small{
     animation: s 1.5s linear infinite;
 }
 
-.loading::after{
+.loading::after {
     animation-delay: 0.75s;
 }
 
-
 @keyframes s {
-    0%{
+    0% {
         width: 0;
         height: 0;
         opacity: 0.75;
     }
-    100%{
+    100% {
         width: 100px;
         height: 100px;
         opacity: 0;

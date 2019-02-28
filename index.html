@@ -235,11 +235,27 @@
     for(let i = 0; i < aTags.length; i++) {
         aTags[i].onclick = function(event) {
             event.preventDefault()
-            let a = event.currentTarget
-            let href = a.getAttribute('href')
-            let element = document.querySelector(href)
-            let top = element.offsetTop
-            window.scrollTo(0, top - 80)
+            // let a = event.currentTarget
+            // let href = a.getAttribute('href')
+            // let element = document.querySelector(href)
+            // let top = element.offsetTop
+            let top = document.querySelector(event.currentTarget.getAttribute('href')).offsetTop
+            // window.scrollTo(0, top - 80)
+            let n = 25
+            let t = 500 / n
+            let currentTop = window.scrollY
+            let targetTop = top - 80
+            let S = targetTop - currentTop
+            let s = S / n
+            let i = 0
+            let id = setInterval(() => {
+                if(i === n) {
+                    window.clearInterval(id)
+                    return
+                }
+                i++
+                window.scrollTo(0, currentTop + s * i)
+            }, t)
         }
     }
   </script>
