@@ -353,7 +353,7 @@ section.skills .progress {
 }
 
 section.skills.offset .progress {
-    transform: translateX(-120%);
+    transform: translateX(-12 0%);
 }
 
 section.skills > ol > li {
@@ -377,74 +377,17 @@ section.portfolio > h2 {
     font-size: 34px;
     line-height: 1.2;
     font-weight: 600;
-}
-
-section.portfolio > nav {
-    display: inline-block;
-    vertical-align: top;
-    margin-top: 32px;
-}
-
-section.portfolio > nav > ol > li {
-    float: left;
-    margin-left: 40px;
-    cursor: pointer;
-}
-
-section.portfolio > nav > ol > li:nth-child(1) {
-    margin-left: 0;
-}
-
-section.portfolio > nav > ol {
-    margin: 0 auto;
-    display: inline-block;
-    vertical-align: top;
+    margin-bottom: 40px;
 }
 
 section.portfolio {
     text-align: center;
     margin-bottom: 60px;
-}
-
-section.portfolio > nav .bar {
-    height: 5px;
-    background: #ffffff;
-    margin-top: 5px;
-    margin-bottom: 30px;
-    border-radius: 3px;
-}
-
-section.portfolio > nav .bar-inner {
-    height: 100%;
-    background: #E6686A;
-    width: 10%;
-    border-radius: 3px;
-    transition: all 0.3s;
-
-}
-
-section.portfolio > nav .bar.state-1 .bar-inner {
-    margin-left: 0;
-    width: 25%;
-}
-
-section.portfolio > nav .bar.state-2 .bar-inner {
-    margin-left: 65px;
-    width: 40%;
-}
-
-section.portfolio > nav .bar.state-3 .bar-inner {
-    margin-left: 175px;
-    width: 35%;
+    max-width: 720px;
 }
 
 section .works {
     position: relative;
-}
-
-section .works > .big,
-section .works > .small {
-    position: absolute;
 }
 
 .siteWelcome {
@@ -504,3 +447,19 @@ section .works > .small {
         height: 100px;
         opacity: 0;
     }
+}
+
+section.portfolio .swiper-container {
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.3);
+    width: 668px;
+    height: 501px;
+}
+
+section.portfolio .swiper-button-prev {
+    right: 100%;
+    left: auto;
+}
+section.portfolio .swiper-button-next {
+    left: 100%;
+    right: auto;
+}

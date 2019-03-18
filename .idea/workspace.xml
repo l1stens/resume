@@ -17,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="221" selection-start-line="221" selection-end-line="221" />
+            <state relative-caret-position="392">
+              <caret line="187" column="44" lean-forward="true" selection-start-line="187" selection-start-column="44" selection-end-line="187" selection-end-column="44" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -33,38 +33,7 @@
                 <element signature="n#style#0;n#div#0;n#div#0;n#li#3;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#li#4;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#li#5;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#5677#5734#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="355" column="29" selection-start-line="355" selection-start-column="29" selection-end-line="355" selection-end-column="29" />
-              <folding>
-                <element signature="e#5#54#0" />
-                <element signature="e#73#130#0" />
-                <element signature="e#134#168#0" />
-                <element signature="e#172#222#0" />
-                <element signature="e#227#298#0" />
-                <element signature="e#307#332#0" />
-                <element signature="e#357#385#0" />
-                <element signature="e#403#412#0" />
-                <element signature="e#446#471#0" />
-                <element signature="e#394#415#0" />
-                <element signature="e#434#458#0" />
-                <element signature="e#471#600#0" />
-                <element signature="e#620#749#0" />
-                <element signature="e#856#912#0" />
-                <element signature="e#939#1030#0" />
+                <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -82,6 +51,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>welcome</find>
+      <find>swiper-co</find>
+      <find>box</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,12 +132,13 @@
       <workItem from="1551093259186" duration="5093000" />
       <workItem from="1551236470378" duration="7638000" />
       <workItem from="1551314880136" duration="1960000" />
-      <workItem from="1551328970166" duration="3884000" />
+      <workItem from="1551328970166" duration="5120000" />
+      <workItem from="1552895455857" duration="2964000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45116000" />
+    <option name="totallyTimeSpent" value="49316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="945" extended-state="0" />
@@ -215,11 +187,39 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/index.html</url>
+          <line>215</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6527">
+          <caret line="456" lean-forward="true" selection-start-line="456" selection-end-line="456" />
+          <folding>
+            <element signature="e#5#54#0" />
+            <element signature="e#73#130#0" />
+            <element signature="e#134#168#0" />
+            <element signature="e#172#222#0" />
+            <element signature="e#227#298#0" />
+            <element signature="e#307#332#0" />
+            <element signature="e#357#385#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="221" selection-start-line="221" selection-end-line="221" />
+        <state relative-caret-position="392">
+          <caret line="187" column="44" lean-forward="true" selection-start-line="187" selection-start-column="44" selection-end-line="187" selection-end-column="44" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -231,36 +231,7 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#li#3;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#li#4;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#li#5;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#5677#5734#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="355" column="29" selection-start-line="355" selection-start-column="29" selection-end-line="355" selection-end-column="29" />
-          <folding>
-            <element signature="e#5#54#0" />
-            <element signature="e#73#130#0" />
-            <element signature="e#134#168#0" />
-            <element signature="e#172#222#0" />
-            <element signature="e#227#298#0" />
-            <element signature="e#307#332#0" />
-            <element signature="e#357#385#0" />
-            <element signature="e#403#412#0" />
-            <element signature="e#446#471#0" />
-            <element signature="e#394#415#0" />
-            <element signature="e#434#458#0" />
-            <element signature="e#471#600#0" />
-            <element signature="e#620#749#0" />
-            <element signature="e#856#912#0" />
-            <element signature="e#939#1030#0" />
+            <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
