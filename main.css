@@ -353,7 +353,7 @@ section.skills .progress {
 }
 
 section.skills.offset .progress {
-    transform: translateX(-12 0%);
+    transform: translateX(-100%);
 }
 
 section.skills > ol > li {
@@ -382,7 +382,7 @@ section.portfolio > h2 {
 
 section.portfolio {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 120px;
     max-width: 720px;
 }
 

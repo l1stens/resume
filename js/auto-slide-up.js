@@ -12,6 +12,7 @@
     fundClosestAndRemoveOffset()
   })
 
+
   let fundClosestAndRemoveOffset = function () {
     let specialTags = document.querySelectorAll('[data-x]')
     let minIndex = 0
@@ -37,5 +38,14 @@
       allChildren[i].classList.remove('highlight')
     }
     li.classList.add('highlight')
+  }
+  let liTags = document.querySelectorAll('nav.menu > ul > li')
+  for (let i = 0; i < liTags.length; i++) {
+    liTags[i].onmouseenter = function (event) {
+      event.currentTarget.classList.add('active')
+    }
+    liTags[i].onmouseleave = function (event) {
+      event.currentTarget.classList.remove('active')
+    }
   }
 }.call()
